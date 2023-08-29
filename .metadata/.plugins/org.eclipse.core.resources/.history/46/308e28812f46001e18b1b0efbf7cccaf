@@ -1,0 +1,15 @@
+package com.kh.variable;
+
+public class VariableConversion {
+
+	public static void main(String[] args) {
+		// 1. 자동형변환(암시적형변환, 묵시적형변환)
+		int intNum = 100;
+		long longNum = intNum; //숫자 100을 의미;
+		
+		System.out.println(intNum);
+		System.out.println(longNum);
+		
+		}
+
+}
