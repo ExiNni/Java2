@@ -31,6 +31,10 @@ public class ScannerSample {
 		food = sc.next();
 		System.out.print("내 주소를 입력해주세요: ");
 		address = sc.nextLine();
+		address = sc.nextLine();
+	
+		
+		
 		
 		System.out.println("나의 취미는 " + hobby + "이며 내가 좋아하는 음식은 " + food + "이고"
 				+ " 나의 주소는 " + address + " 입니다.");
