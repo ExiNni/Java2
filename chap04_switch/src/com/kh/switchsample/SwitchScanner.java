@@ -54,16 +54,23 @@ public class SwitchScanner {
 		  
 		  }
 		 
-		  boolean isChoice = false;
-		  
-		  while(!isChoice) {
-		  
-		  System.out.print("과자를 선택하세요");
+		  System.out.println("과자를 고르세요. 1.새우깡 2.칸쵸 3.오레오");
 		  int yammy = sc.nextInt();
-		  System.out.println("1. 새우깡");
-		  System.out.println("2. 칸쵸");
-		  System.out.println("3. 오레오");
 		  
+
+			switch (yammy) {
+			case 1:
+				System.out.println("새우깡");
+				break;
+			case 2:
+				System.out.println("칸쵸");
+				break;
+			case 3:
+				System.out.println("오레오");
+				break;
+			default:
+				System.out.println("잘못된 선택입니다.");
+			
 
 		  
 		
