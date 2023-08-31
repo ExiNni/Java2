@@ -3,34 +3,24 @@ package com.kh.practice.exam;
 import java.util.Scanner;
 
 public class Practice7 {
+
 	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
 		
-Scanner sc = new Scanner(System.in);
-		
-		System.out.print("숫자 입력: ");
+		System.out.print("숫자를 입력해주세요: ");
 		int num = sc.nextInt();
+		int mul;
 		
-		boolean isTrue = true;
+		System.out.println("====" + num + "단====");
 		
-		while(isTrue) {
-			for(int i = 1; i <= num; i++) {
-				System.out.println(i);
-				isTrue = false;
-			}
-			switch(num) {
-			case 0:
-				System.out.println("1이상의 숫자를 입력해주세요");
-				
-			default:
-				System.out.println("1이상의 숫자를 입력해주세요");
-				
+		for(int i = 1; i <= 9; i++) {
+			mul = num * i;
 			
-				
-			}
 			
-		}
-		
-		
+			System.out.println(num + " * " + i + " = " + mul);
+		} 
 	}
 
 }
+
