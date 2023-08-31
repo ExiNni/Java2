@@ -88,6 +88,13 @@ public class for01 {
 		}
 		System.out.println(num1 + " * " + num2 + " = " + result);
 				
+		for(int i = 2; i <= 9; i++) {
+			for(int j = 1; j <= 9; j++) {
+				mul = i * j;
+				System.out.println("±¸±¸´Ü: " + mul);
+			}
+		}
+		
 		
 		
 	}
