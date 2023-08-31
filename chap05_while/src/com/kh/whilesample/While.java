@@ -19,8 +19,12 @@ public class While {
 				}
 		*/
 		
-		System.out.println("hello world");
-			
+		int count = 1;
+		while (count <= 5) {
+			System.out.println("นÝบน : " + count);
+			count++;
+		}
+		
 		
 	}
 
