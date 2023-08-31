@@ -21,6 +21,7 @@ public class CastingPractice3 {
         
         System.out.println((double)iNum1 / (double)iNum2  ); // 2.5
         System.out.println( dNum ); // 2.5
+        //  System.out.println( (float)dNum ); // 2.5 // double은 메모리 낭비라서 float로 메모리 절약 가능
         
         System.out.println( (int)fNum ); // 3
         System.out.println( iNum1 / (int)fNum ); // 3
@@ -38,3 +39,4 @@ public class CastingPractice3 {
 }
 
 }
+
