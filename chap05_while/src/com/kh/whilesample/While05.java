@@ -13,7 +13,7 @@ public class While05 {
 		int sum = 10;
 		
 		while(sum <= 10) {
-			
+			 
 			sum += num;
 			num = (num + 1);
 			
