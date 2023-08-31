@@ -20,6 +20,7 @@ public class practice {
 		}
 		
 		int a, b;
+	
 		System.out.println("첫 번째 숫자 입력: ");
 		a = sc.nextInt();
 		System.out.println("두 번째 숫자 입력: ");
