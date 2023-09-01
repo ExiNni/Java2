@@ -24,15 +24,15 @@ public class Practice_Hard22 {
 
 			} else {
 				for (int l = i; l <= num; l++) {
-					if (l == i + 1) {
+					if (l == i || l == num) {
 						System.out.print("*");
-						for (int m = l; m <= num; m++) {
-							System.out.print(" ");
-						}
-						System.out.println("*");
-					}
+						
+						
+					}else
+					System.out.print(" ");
 
-				}
+					
+				}System.out.println("");
 
 			}
 
