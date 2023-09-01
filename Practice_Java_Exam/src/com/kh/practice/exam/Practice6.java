@@ -13,10 +13,18 @@ public class Practice6 {
 		System.out.print("두 번째 숫자를 입력해주세요: ");
 		int num2 = sc.nextInt();
 		
-		for(int i = num1; i <= num2; i++ ) {
-			System.out.println(i);
+		if(num1 > num2) {
+			for(int i = num1; i >= num2; i-- ) {
+				System.out.print(i + " ");
+			}
+		}else {
+			for(int i = num1; i <= num2; i++ ) {
+				System.out.print(i + " ");
+			}
 		}
+		
 	}
 
 }
+
 

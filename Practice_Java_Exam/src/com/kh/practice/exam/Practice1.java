@@ -7,7 +7,7 @@ public class Practice1 {
 
 		Scanner sc = new Scanner(System.in);
 		
-		System.out.println("숫자를 입력하세요: ");
+		System.out.print("숫자를 입력하세요: ");
 		int num = sc.nextInt();
 		
 		for(int i = 1; i <= num; i++) {
