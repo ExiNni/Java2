@@ -26,17 +26,18 @@ public class Practice_Hard22 {
 				for (int l = i; l <= num; l++) {
 					if (l == i || l == num) {
 						System.out.print("*");
-						
-						
-					}else
-					System.out.print(" ");
+					} else {
+						System.out.print(" ");
 
-					
-				}System.out.println("");
+					}
+
+				}
+				System.out.println();
 
 			}
 
 		}
+
 	}
 
 }
