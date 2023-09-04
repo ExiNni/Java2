@@ -4,7 +4,7 @@ import com.kh.example.pracitce2.model.vo.Circle;
 
 public class CircleRun {
 	public static void main(String[] args) {
-		Circle myCircle = new Circle(3.14, 5);
+		Circle myCircle = new Circle();
 		
 		myCircle.incrementRadius();
 		myCircle.getAreaOfCircle();

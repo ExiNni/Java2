@@ -5,12 +5,10 @@ public class Circle {
 	double pi = 3.14;
 	int radius = 1;
 	
-	public Circle(double pi, int radius) {
-		this.pi = pi;
-		this.radius = radius;
-		
+public Circle() {
+	// 아무런 초기화를 하지 않음
+}
 	
-	}
 public void incrementRadius() {
 	int radius2 = 2 * radius;
 	System.out.print("반지를을 더한 넓이: ");
