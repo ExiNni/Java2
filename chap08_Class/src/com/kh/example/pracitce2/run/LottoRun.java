@@ -7,7 +7,8 @@ public class LottoRun {
 	public static void main(String[] args) {
 
 		Lotto myLotto = new Lotto();
+		myLotto.information();
 		
-	}
+		}
 
-}
+	}
