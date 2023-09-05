@@ -8,6 +8,7 @@ public class Student {
 	double height;
 	char gender;
 	
+//	()안에 있는것은 파라미터 변수
 	public Student(int grade, int classroom, String name, 
 			double height, char gender) {
 		this.grade = grade;
