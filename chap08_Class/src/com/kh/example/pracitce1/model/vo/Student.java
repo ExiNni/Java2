@@ -1,4 +1,4 @@
-package com.kh.example.pracitce2.model.vo;
+package com.kh.example.pracitce1.model.vo;
 
 public class Student {
 

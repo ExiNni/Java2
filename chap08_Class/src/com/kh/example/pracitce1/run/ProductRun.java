@@ -1,6 +1,6 @@
-package com.kh.example.pracitce2.run;
+package com.kh.example.pracitce1.run;
 
-import com.kh.example.pracitce2.model.vo.Product;
+import com.kh.example.pracitce1.model.vo.Product;
 
 public class ProductRun {
 

@@ -1,6 +1,6 @@
-package com.kh.example.pracitce2.run;
+package com.kh.example.pracitce1.run;
 
-import com.kh.example.pracitce2.model.vo.Member;
+import com.kh.example.pracitce1.model.vo.Member;
 
 public class MemberRun {
 

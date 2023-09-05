@@ -1,6 +1,6 @@
-package com.kh.example.pracitce2.run;
+package com.kh.example.pracitce1.run;
 
-import com.kh.example.pracitce2.model.vo.Student;
+import com.kh.example.pracitce1.model.vo.Student;
 
 public class StudentRun {
 	public static void main(String[] args) {
