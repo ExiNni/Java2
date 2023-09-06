@@ -38,22 +38,11 @@ public class PlayerCharacter {
 
 	public void setHealth(int health) {
 		// 만약에 체력이 0이면 죽이고 체력이 1이상이면 살리자
-		if (health > 0) {
-			this.health = health;
-
-		} else { // 체력이 0 이하라면 체력을 표시하지 말자
-			System.out.println("체력이 없습니다......");
-		}
+		this.health = health;
 	}
 
 	public void setAttackPower(int attackPower) {
-		if (attackPower > 0) {
-			this.attackPower = attackPower;
-
-		} else {
-			this.attackPower = 0;
-			System.out.println("너무 약합니다");
-		}
+		this.attackPower = attackPower;
 	}
 
 	// 캐릭터 정보 출력
