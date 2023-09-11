@@ -4,7 +4,7 @@ public class Practice8 {
 	public static void main(String[] args) {
 
 		// 1. 학생 이름을 저장하는 문자열 배열 선언하고 초기화
-		String[] students = { "강건강", "남나나", "도대담", "류라라", "문미미", "박보배", "송성실", "윤예의", "진재주", "차천축" };
+		String[] students = { "강건강", "남나나", "도대담", "류라라", "문미미", "박보배", "송성실", "윤예의", "진재주", "차천축", "피퐁표", "홍하하" };
 		// 2. 각 분단의 행과 열의 개수를 정의 rows 행개수 cols 열개수
 		int rows = 3;
 		int cols = 2;
@@ -20,7 +20,7 @@ public class Practice8 {
 			int row = i % rows; // row 변수는 행 인덱스
 			int col = i / rows; // col 변수는 열 인덱스
 
-			if (cols % 2 == 0) { // 현재 열이 짝수 열인지 확인
+			if (col % 2 == 0) { // 현재 열이 짝수 열인지 확인
 									// 짝수 열은 첫 번쨰 분단에 해당
 				classRoom1[row][col / 2] = students[i]; // col / 2 열 인덱스를 반으로 나눈값 배치
 			} else { // 현재 열이 홀수 열인 경우 두 번째 분단에 해당
