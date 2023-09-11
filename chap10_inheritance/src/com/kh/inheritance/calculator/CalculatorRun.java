@@ -9,7 +9,6 @@ public class CalculatorRun extends Calculator {
 		CalculatorForMod cal = new CalculatorForMod();
 		System.out.println("Sum = " + cal.add(0, 0));
 		System.out.println("Mul = " + cal.multiply(0, 0));
-		System.out.println();
 		
 		/*
 		 * Calculator cal = new Calculator();
